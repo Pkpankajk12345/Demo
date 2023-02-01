@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Rese Password</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body{
+            font-family: 'Nunito';
+            font-style: normal;
+        }
+        .para {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 130%;
+            letter-spacing: -0.01em;
+            color: #000000;
+            margin-top: 71px;
+            text-align: center;
+        }
+        .para2 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.7);
+            margin-top: 8px;
+        }
+        .newpass {
+            padding-top: 40px;
+            width: 353px;
+            height: 80px;
+            margin: auto;
+        }
+        .newpass p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 125%;
+            color: #000000;
+        }
+        input {
+            width: 353px;
+            height: 56px;
+            background: #FFFFFF;
+            border: 1px solid #D8DADC;
+            border-radius: 10px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            margin-top: -6px;
+        }
+        input::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            color: rgba(0, 0, 0, 0.5);
+            padding-left: 16px;
+        }
+        button {
+            background-color: #7984E3;
+            border: none;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            margin-top: 48px;
+        }
+        button a {
+            padding: 10px 16px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .fa-solid {
+            margin-left: 820px;
+            margin-top: -18px;
+            margin-right: 18px;
+            position: absolute;
+        }
+        /* responsive css Start*/
+        @media screen and (max-width: 375px) {
+            .para {
+                font-size: 20px;
+                margin-left: -158px;
+            }
+            .para2{
+                width: 100%;
+            }
+        }
+        /* responsive css end*/
+        .login{
+            margin-top: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="para">Reset Password</div>
+        <div class="para2">
+            Please type something you’ll remember
+        </div>
+        <div class="newpass">
+            <p>New Password</p>
+            <input type="text" placeholder="must be 8 characters">
+        </div>
+        <i class="fa-solid fa-eye"></i>
+        <div class="newpass">
+            <p>Confirm new Password</p>
+            <input type="text" placeholder="repeat password">
+        </div>
+        <i class="fa-solid fa-eye"></i>
+        <button><a href="">Reset Password</a></button>
+
+
+        <div>
+            <p class="login">Remember password? <b>Log in</b></p>
+        </div>
+
+    </div>
+</body>
+
+</html>
